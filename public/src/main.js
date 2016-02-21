@@ -40,7 +40,6 @@ var QuoteLayer = React.createClass({
 		return {
 			quote: quotes[parseInt(Math.random()*quotes.length)],
 			selectedQuotes: quotes,
-			// search_author: false
 		}
 	},
 
